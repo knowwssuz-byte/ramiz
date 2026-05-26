@@ -240,7 +240,7 @@ async def magic_box_handler(message: types.Message):
                 "❌ Siz barcha qutilarni ochib bo'lgansiz!\n\n"
                 "📊 Statistika:\n"
                 f"• Ochilgan qutilar: {u['boxes']}/3\n"
-                f"• Premium yutilgan: {'✅ Ha' if u['prize'] else '❌ Yo\\'q'}"
+                f"• Premium yutilgan: {'✅ Ha' if u['prize'] else '❌ Yo\'q'}"
             )
             return
         
